@@ -43,7 +43,7 @@ describe("Sum function tests", function() {
         expect(result).to.equal(6);
     })
 
-    it("should return correct sum when pass chars as input", function() {
+    it("should return NaN when input contains non-numeric characters", function() {
 
         let input = ['a', 'b', 'a'];
         let result = sum(input);
