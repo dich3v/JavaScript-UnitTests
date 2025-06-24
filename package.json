@@ -1,16 +1,13 @@
 {
   "name": "javascript-unittests",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Basic JS functions with unit tests using Mocha and Chai",
+  "type": "module",
   "scripts": {
     "test": "mocha"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "chai": "^5.2.0",
-    "mocha": "^11.6.0"
+    "mocha": "^11.7.0"
   }
 }
